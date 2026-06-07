@@ -411,7 +411,7 @@ class SmartEnergySystem:
                 fg="white",
             ).pack(pady=(0, 10))
 
-        # 🔔 ОДИН спільний банер про режим роботи будинку
+        # ОДИН спільний банер про режим роботи будинку
         mode_frame = tk.Frame(parent, bg=Colors.BG)
         mode_frame.pack(fill=tk.X, padx=5)
 
